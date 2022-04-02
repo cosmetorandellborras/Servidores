@@ -46,6 +46,12 @@ Los servidores de bases de datos son un tipo de programa servidor que permiten l
 
 ## Que es docker?
 
-Docker es una plataforma de software que permite empaquetar software en unidades estandarizadas llamadas contenedores. Estos contenedores tienen todo lo necesario para ser ejecutados. Por lo tanto permite crear, probar y implementar aplicaciones de manera rapida y sencilla
+Docker es una plataforma de software que permite empaquetar software en unidades estandarizadas llamadas contenedores. Estos contenedores tienen todo lo necesario para ser ejecutados (aplicación + librerias y todo lo necesario). Por lo tanto permite crear, probar y implementar aplicaciones de manera rapida y sencilla
 
 A diferencia de una máquina virtual, docker es un sistema operativo para contenedores. Por lo tanto cuando se ejecutan los contenedores comparten kernel.
+
+Una vez tengamos empaquetada la aplcación en un contenedor, se puede compartir este contenedor que podrá ser ejecutado en cualquier máquina que tenga docker instalado.
+
+Además, al ser un sistema muy ligero, permite la ejecución de diversos contenedores simultaneamente en máquinas de prestaciones mas modestas.
+
+
